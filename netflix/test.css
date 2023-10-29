@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header
+{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    
+
+}
+.logo
+{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-weight:700 ;
+    font-size: 1.8em;
+}
+.navigation a
+{
+color: red;
+font-size: 1.1em;
+text-decoration: none;
+font-weight:500 ;
+padding: 30px;
+}
+.navigation a:hover
+{
+color: red;
+
+}
+section
+{
+padding: 100px 200px;
+
+
+}
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(thumbnail_Netflix\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: white;
+    font-weight: 800px;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+.main h2 span
+{
+    
+    display: inline-block;
+margin-top: 10px;
+    color:red ;
+    font-weight: 200px;
+}
+.main-bot
+{
+    color: red;
+    text-decoration: none;
+background-color: aliceblue;
+border-style: solid;
+border-radius: 15px;
+font-size:x-large ;
+display: inline-block;
+padding:0.9375em  2.1875em;
+margin-bottom: 40px;
+transition: 0.5s ease;
+}
+.main-bot:hover
+{
+    background-color: antiquewhite;
+    transform: scale(1.2);
+}
+.social-icons a
+{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    }
+    .content
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .card
+    {
+        background-color: white;
+        width: 21.25em;
+    }
